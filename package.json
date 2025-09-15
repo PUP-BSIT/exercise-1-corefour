@@ -1,0 +1,24 @@
+{
+  "name": "exercise-1-corefour",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/YyzTc--o)",
+  "homepage": "https://github.com/PUP-BSIT/exercise-1-corefour#readme",
+  "bugs": {
+    "url": "https://github.com/PUP-BSIT/exercise-1-corefour/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUP-BSIT/exercise-1-corefour.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
