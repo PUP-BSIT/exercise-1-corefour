@@ -15,10 +15,10 @@ const car1 = {
     year: 2022,
     type: CarType.SEDAN,
     print: function () {
-        console.log(`ID: ${this.id}, 
-      Brand: ${this.brand}, 
-      Model: ${this.model}, 
-      Year: ${this.year}, 
+        console.log(`ID: ${this.id},
+      Brand: ${this.brand},
+      Model: ${this.model},
+      Year: ${this.year},
       Type: ${this.type}`);
     },
 };
@@ -50,10 +50,21 @@ const car3 = {
        Type: ${this.type}`);
     }
 };
-// TODO(Siervo, Jallaine Perpetua):
-//    create an object out of the Type created in item no. 3. The print method should display all the properties of the object in the format of your choice.
+const car4 = {
+    id: 4,
+    brand: "Hyundai",
+    model: "Tucson",
+    year: 2020,
+    type: CarType.SUV,
+    print: function () {
+        console.log(`ID: ${this.id},
+      Brand: ${this.brand},
+      Model: ${this.model},
+      Year: ${this.year},
+      Type: ${this.type}`);
+    }
+};
 car1.print();
 car2.print();
 car3.print();
-// TODO(Siervo, Jallaine Perpetua):
-//    call the print method of he/she created in item no. 4.
+car4.print();
