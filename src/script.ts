@@ -6,11 +6,14 @@ enum CarType {
   HATCHBACK = "Hatchback",
 }
 
-// TODO(Riomalos, Zyrrah Feil):
-//    create a Type with at least 5 properties.
-//        * One of the 5 properties should be of type enum that is created in item no. 2(required).
-//        * One of the 5 properties should be a function with name "print" that does not accept any parameter and returns void.(required)
-//        * The rest of properties are up to you and whether they are required or optional.
+type Car = {
+    id: number;
+    brand: string;
+    model: string;
+    year: number;
+    type: CarType;
+    print(): void;
+};
 
 // TODO(Durante, Stephanie),
 // TODO(Florido, Maydelyn),
