@@ -32,7 +32,22 @@ const car1: Car = {
   },
 };
 
-// TODO(Florido, Maydelyn),
+const car2: Car = {
+  id: 2,
+  brand: "Ford",
+  model: "Ranger",
+  year: 2021,
+  type: CarType.TRUCK,
+  print: function () {
+    console.log(
+      `ID: ${this.id},
+       Brand: ${this.brand},
+       Model: ${this.model},
+       Year: ${this.year},
+       Type: ${this.type}`
+    );
+  }
+};
 
 const car3: Car = {
   id: 3,
@@ -55,7 +70,7 @@ const car3: Car = {
 //    create an object out of the Type created in item no. 3. The print method should display all the properties of the object in the format of your choice.
 
 car1.print();
-// TODO(Florido, Maydelyn),
+car2.print();
 car3.print();
 // TODO(Siervo, Jallaine Perpetua):
 //    call the print method of he/she created in item no. 4.
