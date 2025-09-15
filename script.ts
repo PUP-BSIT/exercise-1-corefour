@@ -1,7 +1,12 @@
-// TODO(Durante, Stephanie): 
-//    create an enum of your choice with at least 5 elements of any type.
+enum CarType {
+  SEDAN = "Sedan",
+  SUV = "SUV",
+  TRUCK = "Truck",
+  COUPE = "Coupe",
+  HATCHBACK = "Hatchback",
+}
 
-// TODO(Riomalos, Zyrrah Feil): 
+// TODO(Riomalos, Zyrrah Feil):
 //    create a Type with at least 5 properties.
 //        * One of the 5 properties should be of type enum that is created in item no. 2(required).
 //        * One of the 5 properties should be a function with name "print" that does not accept any parameter and returns void.(required)
@@ -18,5 +23,3 @@
 // TODO(Riomalos, Zyrrah Feil),
 // TODO(Siervo, Jallaine Perpetua):
 //    call the print method of he/she created in item no. 4.
-
-

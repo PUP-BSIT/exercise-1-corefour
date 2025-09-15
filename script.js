@@ -1,6 +1,12 @@
-// TODO(Durante, Stephanie): 
-//    create an enum of your choice with at least 5 elements of any type.
-// TODO(Riomalos, Zyrrah Feil): 
+var CarType;
+(function (CarType) {
+    CarType["SEDAN"] = "Sedan";
+    CarType["SUV"] = "SUV";
+    CarType["TRUCK"] = "Truck";
+    CarType["COUPE"] = "Coupe";
+    CarType["HATCHBACK"] = "Hatchback";
+})(CarType || (CarType = {}));
+// TODO(Riomalos, Zyrrah Feil):
 //    create a Type with at least 5 properties.
 //        * One of the 5 properties should be of type enum that is created in item no. 2(required).
 //        * One of the 5 properties should be a function with name "print" that does not accept any parameter and returns void.(required)
