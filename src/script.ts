@@ -7,12 +7,12 @@ enum CarType {
 }
 
 type Car = {
-    id: number;
-    brand: string;
-    model: string;
-    year: number;
-    type: CarType;
-    print(): void;
+  id: number;
+  brand: string;
+  model: string;
+  year: number;
+  type: CarType;
+  print(): void;
 };
 
 const car1: Car = {
