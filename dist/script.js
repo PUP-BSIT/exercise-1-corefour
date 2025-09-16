@@ -18,7 +18,7 @@ const car1 = {
       Model: ${this.model},
       Year: ${this.year},
       Type: ${this.type}`);
-    },
+    }
 };
 const car2 = {
     id: 2,

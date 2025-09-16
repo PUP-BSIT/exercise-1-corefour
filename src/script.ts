@@ -29,7 +29,7 @@ const car1: Car = {
       Year: ${this.year},
       Type: ${this.type}`
     );
-  },
+  }
 };
 
 const car2: Car = {
