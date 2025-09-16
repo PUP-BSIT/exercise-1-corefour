@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var CarType;
 (function (CarType) {
     CarType["SEDAN"] = "Sedan";
@@ -68,3 +66,4 @@ car1.print();
 car2.print();
 car3.print();
 car4.print();
+export {};
